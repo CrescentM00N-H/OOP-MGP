@@ -1,0 +1,9 @@
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe.config
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.pdb
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.AssemblyReference.cache
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.Properties.Resources.resources
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.GenerateResource.cache
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.CoreCompileInputs.cache
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
