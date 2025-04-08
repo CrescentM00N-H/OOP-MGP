@@ -10,6 +10,8 @@ namespace Euchre.Shared
     {
         #region Enums
         public enum Suit { Hearts, Diamonds, Spades, Clubs}
+
+        public enum Rank { Nine, Ten, Jack, Queen, King, Ace }
         #endregion
     }
 }
