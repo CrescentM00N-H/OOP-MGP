@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Euchre.Models
+namespace Euchre.Services
 {
-    internal class Game
+    internal class JsonService
     {
     }
 }
