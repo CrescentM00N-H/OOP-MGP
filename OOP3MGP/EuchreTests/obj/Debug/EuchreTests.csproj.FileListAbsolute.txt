@@ -1,0 +1,2 @@
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.csproj.AssemblyReference.cache
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.csproj.CoreCompileInputs.cache

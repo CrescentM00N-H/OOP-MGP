@@ -7,3 +7,4 @@ C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.GenerateRe
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.CoreCompileInputs.cache
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.frmMainMenu.resources

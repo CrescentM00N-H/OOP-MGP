@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Euchre.Models
 {
-    internal class Player
+    public class Player
     {
         #region Class Vars
         public static List<Player> Players = new List<Player>();
@@ -38,10 +38,52 @@ namespace Euchre.Models
             this.ID = nextID;
             this.IsAI = isAI;
             nextID++;
+            Player.Players.Add( this );
         }
         #endregion
 
         #region Methods
+        /// <summary>
+        /// Adds a card to the players hand
+        /// </summary>
+        /// <param name="card">Card to add</param>
+        public void AddCard(Card card)
+        {
+            Hand.Add( card );
+        }
+        /// <summary>
+        /// Removes a card from players hand.
+        /// </summary>
+        /// <param name="card">Card to remove.</param>
+        public void RemoveCard(Card card) { Hand.Remove( card ); }
+        /// <summary>
+        /// Returns true if player has card in hand
+        /// </summary>
+        /// <param name="card">card to check player for.</param>
+        /// <returns>True if card, false if not</returns>
+        public bool HasCard(Card card)
+        {
+            foreach(Card c in Hand)
+            {
+                if(c == card) return true;
+            }
+            return false;
+        }
+        /// <summary>
+        /// Returns a card if playable, null if not. Removes card from players hand.
+        /// </summary>
+        /// <param name="card">Card to be played.</param>
+        /// <returns></returns>
+        public Card PlayCard(Card card)
+        {
+            // && Game.ValidCard
+            if (HasCard(card))
+            {
+                Hand.Remove(card);
+                return card;
+            }
+            return null;
+        }
         #endregion
 
         #region Static Methods
