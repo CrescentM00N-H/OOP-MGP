@@ -29,7 +29,7 @@ namespace Euchre.Models
         }
 
         /// <summary>
-        /// Checks if the card is trump based on the current trump suit, including left/right bower logic
+        /// Checks if the card is trump based on the current trump suit including left right bower logic
         /// </summary>
         /// <param name="currentTrump">The trump suit for the round</param>
         public void CheckTrump(Constants.Suit currentTrump)
