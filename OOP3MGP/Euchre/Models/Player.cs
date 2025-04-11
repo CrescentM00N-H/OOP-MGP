@@ -49,6 +49,14 @@ namespace Euchre.Models
             Hand.Add( card );
         }
         /// <summary>
+        /// Adds a list of cards to the players hand
+        /// </summary>
+        /// <param name="cards">Cards to be added.</param>
+        public void AddCards(List<Card> cards)
+        {
+            Hand.AddRange( cards );
+        }
+        /// <summary>
         /// Removes a card from players hand.
         /// </summary>
         /// <param name="card">Card to remove.</param>
