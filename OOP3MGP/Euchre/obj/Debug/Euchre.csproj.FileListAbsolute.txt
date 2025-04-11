@@ -7,6 +7,7 @@ C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.GenerateRe
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.CoreCompileInputs.cache
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
+<<<<<<< HEAD
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.AssemblyReference.cache
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.Properties.Resources.resources
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.frmMainMenu.resources
@@ -14,3 +15,22 @@ C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.Generat
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.CoreCompileInputs.cache
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
+=======
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.frmMainMenu.resources
+<<<<<<< HEAD
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe.config
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.pdb
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.AssemblyReference.cache
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.Properties.Resources.resources
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.frmMainMenu.resources
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.GenerateResource.cache
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.CoreCompileInputs.cache
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
+C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
+=======
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.xml
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.Up2Date
+>>>>>>> c12a44ff3d38f6fbac97b4aaa6b1ed8250553b14
+>>>>>>> d9af8a11dfb043246f9cf0973041decdc1d95d30
