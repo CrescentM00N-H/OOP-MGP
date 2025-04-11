@@ -87,7 +87,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Views\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -114,7 +113,32 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1.2 Poker cards.png" />
+    <Content Include="Cards\PixelTheme\Ace,Clubs.png" />
+    <Content Include="Cards\PixelTheme\Ace,Diamonds.png" />
+    <Content Include="Cards\PixelTheme\Ace,Hearts.png" />
+    <Content Include="Cards\PixelTheme\Ace,Spades.png" />
+    <Content Include="Cards\PixelTheme\BlueCardBack.png" />
+    <Content Include="Cards\PixelTheme\BlueCardBackSpotted.png" />
+    <Content Include="Cards\PixelTheme\Jack,Clubs.png" />
+    <Content Include="Cards\PixelTheme\Jack,Diamonds.png" />
+    <Content Include="Cards\PixelTheme\Jack,Hearts.png" />
+    <Content Include="Cards\PixelTheme\Jack,Spades.png" />
+    <Content Include="Cards\PixelTheme\King,Clubs.png" />
+    <Content Include="Cards\PixelTheme\King,Diamonds.png" />
+    <Content Include="Cards\PixelTheme\King,Hearts.png" />
+    <Content Include="Cards\PixelTheme\King,Spades.png" />
+    <Content Include="Cards\PixelTheme\Nine,Clubs.png" />
+    <Content Include="Cards\PixelTheme\Nine,Diamonds.png" />
+    <Content Include="Cards\PixelTheme\Nine,Hearts.png" />
+    <Content Include="Cards\PixelTheme\Nine,Spades.png" />
+    <Content Include="Cards\PixelTheme\Queen,Clubs.png" />
+    <Content Include="Cards\PixelTheme\Queen,Diamonds.png" />
+    <Content Include="Cards\PixelTheme\Queen,Hearts.png" />
+    <Content Include="Cards\PixelTheme\Queen,Spades.png" />
+    <Content Include="Cards\PixelTheme\Ten,Clubs.png" />
+    <Content Include="Cards\PixelTheme\Ten,Diamonds.png" />
+    <Content Include="Cards\PixelTheme\Ten,Hearts.png" />
+    <Content Include="Cards\PixelTheme\Ten,Spades.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
