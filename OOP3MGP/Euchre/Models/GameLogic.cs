@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Euchre.Models
 {
     /// <summary>
-    /// Manages the overall flow of a 2-player Euchre game, including dealing, bidding, and scoring
+    /// Manages the overall flow of a 2 player Euchre game including dealing, bidding, and scoring
     /// </summary>
     public class Game
     {
@@ -28,7 +28,7 @@ namespace Euchre.Models
         /// <param name="name">The player’s name</param>
         public Game(int accountId, string name)
         {
-            _humanPlayer = new Player(name);
+            _humanPlayer = new Player(name, new List<Card>(), 0);
             _aiPlayer = new AIPlayer();
             _deck = new Deck();
             PlayerScore = 0;
@@ -38,7 +38,7 @@ namespace Euchre.Models
         }
 
         /// <summary>
-        /// Starts a new game, playing rounds until a player reaches 10 points
+        /// Starts a new game playing rounds until a player reaches 10 points
         /// </summary>
         public void StartGame()
         {
@@ -57,12 +57,11 @@ namespace Euchre.Models
             // Reset deck and deal cards
             _deck = new Deck();
             _deck.Shuffle();
-            _humanPlayer.ReceiveCards(_deck.Deal(5));
-            _aiPlayer.ReceiveCards(_deck.Deal(5));
+            _humanPlayer.AddCards(_deck.Deal(5));
+            _aiPlayer.AddCards(_deck.Deal(5));
 
             // Bidding phase
             _trumpSuit = BidTrump();
-            // Handle no trump case if needed
             if (!_trumpSuit.HasValue) return; 
 
             // Play 5 tricks
@@ -87,7 +86,7 @@ namespace Euchre.Models
         /// <summary>
         /// Handles the bidding phase to determine the trump suit
         /// </summary>
-        /// <returns>The chosen trump suit, or null if no trump is selected</returns>
+        /// <returns>The chosen trump suit or null if no trump is selected</returns>
         private Constants.Suit? BidTrump()
         {
             Card upcard = _deck.Draw();
@@ -109,7 +108,7 @@ namespace Euchre.Models
                 return aiBid;
             }
 
-            return null; 
+            return null;
         }
 
         /// <summary>

@@ -16,5 +16,10 @@ namespace Euchre
         {
             InitializeComponent();
         }
+
+        private void frmMainMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

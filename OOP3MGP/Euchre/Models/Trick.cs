@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Euchre.Models
 {
     /// <summary>
-    /// Represents a single trick in the Euchre game, where players play one card each
+    /// Represents a single trick in the Euchre game where players play one card each
     /// </summary>
     public class Trick
     {
@@ -25,7 +25,7 @@ namespace Euchre.Models
         }
 
         /// <summary>
-        /// Plays a trick, determining the winner based on cards played
+        /// Plays a trick determining the winner based on cards played
         /// </summary>
         /// <param name="player">The human player</param>
         /// <param name="ai">The AI player</param>
@@ -41,16 +41,30 @@ namespace Euchre.Models
             Player secondPlayer = playerLeads ? ai : player;
 
             // First player plays
-            Card firstCard = (firstPlayer is AIPlayer)
-                ? ((AIPlayer)firstPlayer).PlayCard(null, trumpSuit, _cardsPlayed)
-                : firstPlayer.Hand[0]; 
+            Card firstCard;
+            if (firstPlayer is AIPlayer aiPlayer)
+            {
+                firstCard = aiPlayer.PlayCard(null, trumpSuit, _cardsPlayed);
+            }
+            else
+            {
+                firstCard = firstPlayer.Hand[0]; 
+                firstPlayer.PlayCard(firstCard);
+            }
             _cardsPlayed.Add(firstCard);
             _playersPlayed.Add(firstPlayer);
 
             // Second player plays
-            Card secondCard = (secondPlayer is AIPlayer)
-                ? ((AIPlayer)secondPlayer).PlayCard(firstCard.Suit, trumpSuit, _cardsPlayed)
-                : secondPlayer.Hand[0]; 
+            Card secondCard;
+            if (secondPlayer is AIPlayer aiPlayer2)
+            {
+                secondCard = aiPlayer2.PlayCard(firstCard.Suit, trumpSuit, _cardsPlayed);
+            }
+            else
+            {
+                secondCard = secondPlayer.Hand[0]; 
+                secondPlayer.PlayCard(secondCard);
+            }
             _cardsPlayed.Add(secondCard);
             _playersPlayed.Add(secondPlayer);
 
@@ -62,7 +76,7 @@ namespace Euchre.Models
         /// <summary>
         /// Returns a string representation of the trick
         /// </summary>
-        /// <returns>String describing the cards played</returns>
+        /// <returns>String describing the cards played.</returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();

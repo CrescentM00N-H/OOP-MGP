@@ -28,20 +28,98 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainMenu));
+            this.pbxTitle = new System.Windows.Forms.PictureBox();
+            this.btnPlay = new System.Windows.Forms.Button();
+            this.btnSettings = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pbxTitle
+            // 
+            this.pbxTitle.BackColor = System.Drawing.Color.Transparent;
+            this.pbxTitle.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pbxTitle.ErrorImage")));
+            this.pbxTitle.Image = ((System.Drawing.Image)(resources.GetObject("pbxTitle.Image")));
+            this.pbxTitle.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbxTitle.InitialImage")));
+            this.pbxTitle.Location = new System.Drawing.Point(465, 171);
+            this.pbxTitle.Name = "pbxTitle";
+            this.pbxTitle.Size = new System.Drawing.Size(698, 141);
+            this.pbxTitle.TabIndex = 0;
+            this.pbxTitle.TabStop = false;
+            // 
+            // btnPlay
+            // 
+            this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.Location = new System.Drawing.Point(666, 350);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(174, 61);
+            this.btnPlay.TabIndex = 1;
+            this.btnPlay.Text = "Play";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.Location = new System.Drawing.Point(666, 426);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(174, 61);
+            this.btnSettings.TabIndex = 2;
+            this.btnSettings.Text = "Settings";
+            this.btnSettings.UseVisualStyleBackColor = true;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(666, 509);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(174, 61);
+            this.btnExit.TabIndex = 3;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(1332, 737);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(205, 81);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // frmMainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.Green;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1600, 865);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnSettings);
+            this.Controls.Add(this.btnPlay);
+            this.Controls.Add(this.pbxTitle);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmMainMenu";
             this.Text = "Main Menu";
+            this.Load += new System.EventHandler(this.frmMainMenu_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox pbxTitle;
+        private System.Windows.Forms.Button btnPlay;
+        private System.Windows.Forms.Button btnSettings;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 

@@ -6,36 +6,22 @@ using System.Linq;
 namespace Euchre.Models
 {
     /// <summary>
-    /// Represents an AI player in the Euchre game, capable of bidding and playing cards strategically
+    /// Represents an AI player in the Euchre game capable of bidding and playing cards strategically
     /// </summary>
-    public class AIPlayer // placeholder for now : Player inheritance
+    public class AIPlayer : Player
     {
-        /// <summary>
-        /// Placeholder until players class is defined
-        /// </summary>
-        public string Name { get; set; }
-
-        /// <summary>
-        /// Placeholder until players class is defined
-        /// </summary>
-        public List<Card> Hand { get; set; }
-
         /// <summary>
         /// Initializes a new AI player with a default name
         /// </summary>
-        public AIPlayer()
+        public AIPlayer() : base("AI Opponent", new List<Card>(), 0)
         {
-            // Set default name
-            Name = "AI Opponent"; 
-            // Initialize hand
-            Hand = new List<Card>(); 
         }
 
         /// <summary>
         /// Decides whether to bid on a trump suit based on the upcard
         /// </summary>
-        /// <param name="upcard">The face-up card from the deck</param>
-        /// <returns>The chosen trump suit, or null if passing</returns>
+        /// <param name="upcard">The face up card from the deck</param>
+        /// <returns>The chosen trump suit or null if passing</returns>
         public Constants.Suit? Bid(Card upcard)
         {
             int trumpCount = Hand.Count(card => card.Suit == upcard.Suit ||
@@ -49,13 +35,14 @@ namespace Euchre.Models
                 return upcard.Suit;
             }
 
+            // Pass
             return null; 
         }
 
         /// <summary>
-        /// Chooses a trump suit if forced to pick for second round of bidding
+        /// Chooses a trump suit if forced to pick during the second round of bidding
         /// </summary>
-        /// <returns>The chosen trump suit, or null if no good option</returns>
+        /// <returns>The chosen trump suit or null if no good option</returns>
         public Constants.Suit? ChooseTrump()
         {
             // Count cards per suit
@@ -82,7 +69,7 @@ namespace Euchre.Models
         /// <summary>
         /// Plays a card based on the current trick state
         /// </summary>
-        /// <param name="suitLed">The suit led in the trick, if any</param>
+        /// <param name="suitLed">The suit led in the trick</param>
         /// <param name="trumpSuit">The trump suit for the round</param>
         /// <param name="cardsPlayed">Cards already played in the trick</param>
         /// <returns>The card to play</returns>
@@ -100,22 +87,22 @@ namespace Euchre.Models
                 if (trumpCards.Any())
                 {
                     Card card = trumpCards.First();
-                    RemoveCardFromHand(card); 
+                    base.PlayCard(card);
                     return card;
                 }
-                // Otherwise play highest non trump card
+                // Otherwise play highest non-trump card
                 var nonTrump = Hand.OrderByDescending(c => c.GetRankValue()).First();
-                RemoveCardFromHand(nonTrump);
+                base.PlayCard(nonTrump);
                 return nonTrump;
             }
 
             // If following try to follow suit
-            if (CanFollowSuitLocal(suitLed.Value)) 
+            if (CanFollowSuit(suitLed.Value))
             {
                 var validCards = Hand.Where(c => c.Suit == suitLed.Value && !c.IsTrump)
                                      .OrderByDescending(c => c.GetRankValue()).ToList();
                 Card card = validCards.First(); 
-                RemoveCardFromHand(card);
+                base.PlayCard(card);
                 return card;
             }
 
@@ -123,13 +110,13 @@ namespace Euchre.Models
             if (trumpCards.Any())
             {
                 Card card = trumpCards.First();
-                RemoveCardFromHand(card);
+                base.PlayCard(card);
                 return card;
             }
 
             // Otherwise play lowest card
             Card lowest = Hand.OrderBy(c => c.GetRankValue()).First();
-            RemoveCardFromHand(lowest);
+            base.PlayCard(lowest);
             return lowest;
         }
 
@@ -143,29 +130,6 @@ namespace Euchre.Models
             {
                 card.CheckTrump(trumpSuit);
             }
-        }
-
-        /// <summary>
-        /// Temporary method to remove a card from the player's hand
-        /// </summary>
-        /// <param name="card">The card to remove</param>
-        private void RemoveCardFromHand(Card card)
-        {
-            Hand.Remove(card);
-        }
-
-        /// <summary>
-        /// Temporary method to check if the player can follow the suit led
-        /// </summary>
-        /// <param name="suitLed">The suit led in the trick</param>
-        /// <returns>True if the player has a card of the suit led</returns>
-        private bool CanFollowSuitLocal(Constants.Suit suitLed)
-        {
-            foreach (var card in Hand)
-            {
-                if (card.Suit == suitLed && !card.IsTrump) return true;
-            }
-            return false;
         }
     }
 }
