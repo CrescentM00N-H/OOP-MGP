@@ -122,45 +122,44 @@ namespace Euchre.Models
             }
         }
 
-        //
-        //
-        // in progress below
-        //
-        //
-        //
-        //
 
 
         public static void ShowPlayerHand(List<Card> cards, Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
         {
             clearPlayerHand(pnl1, pnl2, pnl3, pnl4, pnl5);
 
+            //loop through the player's cards limiting to 5.
             for (int i = 0; i < cards.Count && i < 5; i++)
             {
                 var card = cards[i];
-                string key = $"{card.Rank}_{card.Suit}";
+                //create a key in the format rank suit to match the dictionary.
+                string key = $"{card.Rank},{card.Suit}";
 
-                if (true)
+                //get the path from the dictionary in constants
+                string filePath = Constants.PixelThemePaths[key];
+
+                PictureBox pb = new PictureBox
                 {
-                    PictureBox pb = new PictureBox
-                    {
+                    BackColor = Color.Red,
+                    BackgroundImageLayout = ImageLayout.Stretch,
+                    Width = 100,
+                    Height = 150,
+                    Margin = new Padding(5),
+                    Tag = key,
+                    // Load the image from the file path.
+                    BackgroundImage = Image.FromFile(filePath)
+                };
 
-                        BackColor = Color.Red,
-                        BackgroundImageLayout = ImageLayout.Stretch,
-                        Width = 100,
-                        Height = 150,
-                        Margin = new Padding(5),
-                        Tag = key
-                    };
-
-                    Panel panel = GetPanelByIndex(i, pnl1, pnl2, pnl3, pnl4, pnl5);
-                    if (panel != null)
-                    {
-                        panel.Controls.Add(pb);
-                    }
-                }            
+                //get the panel based on index
+                Panel panel = GetPanelByIndex(i, pnl1, pnl2, pnl3, pnl4, pnl5);
+                if (panel != null)
+                {
+                    panel.Controls.Add(pb);
+                }
             }
         }
+    
+        
 
         public static void clearPlayerHand(Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
         {
@@ -191,7 +190,7 @@ namespace Euchre.Models
 
             foreach (Panel pnl in panels)
             {
-                // Loop backwards to safely remove controls
+                //Loop backwards to safely remove controls
                 for (int i = pnl.Controls.Count - 1; i >= 0; i--)
                 {
                     if (pnl.Controls[i] is PictureBox pb && pb.Tag?.ToString() == key)
