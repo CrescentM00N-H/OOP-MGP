@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -130,117 +131,83 @@ namespace Euchre.Models
         //
 
 
-        /// <summary>
-        /// Shows the player's hand of cards in the UI
-        /// </summary>
-        /// <param name="cards"></param>
-        public void ShowPlayerHand(List<Card> cards)
+        public static void ShowPlayerHand(List<Card> cards, Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
         {
-
-            clearPlayerHand();
+            clearPlayerHand(pnl1, pnl2, pnl3, pnl4, pnl5);
 
             for (int i = 0; i < cards.Count && i < 5; i++)
             {
                 var card = cards[i];
                 string key = $"{card.Rank}_{card.Suit}";
 
-                if (constraints.cardPaths.TryGetValue(key, out string imagePath))
+                if (true)
                 {
-                    //makes a pb
                     PictureBox pb = new PictureBox
                     {
-                        BackgroundImage = Image.FromFile(imagePath),
+
+                        BackColor = Color.Red,
                         BackgroundImageLayout = ImageLayout.Stretch,
                         Width = 100,
                         Height = 150,
                         Margin = new Padding(5),
-                        //gives it its own rank,suit through a tag which it keeps its whole life cause its a property of the pb same as the size or colour
                         Tag = key
                     };
 
-                    Panel panel = GetPanelByIndex(i);
+                    Panel panel = GetPanelByIndex(i, pnl1, pnl2, pnl3, pnl4, pnl5);
                     if (panel != null)
                     {
-                        //adds the pb to the panel
                         panel.Controls.Add(pb);
                     }
-                }
-                else
-                { 
-                    Console.WriteLine($"image for card {key} not found"); 
-                }               
+                }            
             }
         }
 
-
-        /// <summary>
-        /// Clears the player's hand of cards in the UI
-        /// </summary>
-        public void clearPlayerHand()
+        public static void clearPlayerHand(Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
         {
-            for (int i = 0; i < 5; i++)
+            Panel[] panels = new Panel[] { pnl1, pnl2, pnl3, pnl4, pnl5 };
+            foreach (Panel pnl in panels)
             {
-                Panel panel = GetPanelByIndex(i);
-                if (panel != null)
-                {
-                    // Clear the panel
-                    panel.Controls.Clear();
-                }
+                pnl?.Controls.Clear();
             }
         }
 
-        /// <summary>
-        /// Removes a card from the player's hand in the UI
-        /// </summary>
-        /// <param name="rank"></param>
-        /// <param name="suit"></param>
-        public void RemoveCard(string rank, string suit)
-        {
-            string key = $"{rank}_{suit}";
-
-            //loop in reverse over cards(pbs) in controls
-            for (int i = 0; i < 5; i++)
-            {
-                Panel panel = GetPanelByIndex(i);
-                // if the control is a pb and its tag(pb property, like a description) matches it removes the card(pb)
-                if (panel != null)
-                {
-                    for (int j = panel.Controls.Count - 1; j >= 0; j--)
-                    {
-                        if (panel.Controls[j] is PictureBox pb && pb.Tag != null && pb.Tag.ToString() == key)
-                        {
-                            panel.Controls.RemoveAt(j);
-                            return; // Exit the loop after removing the card
-                        }
-                    }
-                }
-            }
-
-        }
-
-        /// <summary>
-        /// Returns the panel corresponding to the index for displaying cards
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public Panel GetPanelByIndex(int index)
+        public static Panel GetPanelByIndex(int index, Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
         {
             switch (index)
             {
-                case 0: return pnlPlayerCard1;
-                case 1: return pnlPlayerCard2;
-                case 2: return pnlPlayerCard3;
-                case 3: return pnlPlayerCard4;
-                case 4: return pnlPlayerCard5;
+                case 0: return pnl1;
+                case 1: return pnl2;
+                case 2: return pnl3;
+                case 3: return pnl4;
+                case 4: return pnl5;
                 default: return null;
             }
         }
 
-        /// <summary>
-        /// Returns a string representation of the card
-        /// </summary>
-        /// <returns>String in the format Rank of Suit</returns>
-        public override string ToString()
+        public static void RemoveCard(string rank, string suit, Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
+        {
+            string key = $"{rank}_{suit}";
+            Panel[] panels = new Panel[] { pnl1, pnl2, pnl3, pnl4, pnl5 };
+
+            foreach (Panel pnl in panels)
+            {
+                // Loop backwards to safely remove controls
+                for (int i = pnl.Controls.Count - 1; i >= 0; i--)
+                {
+                    if (pnl.Controls[i] is PictureBox pb && pb.Tag?.ToString() == key)
+                    {
+                        pnl.Controls.RemoveAt(i);
+                        return;
+                    }
+                }
+            }
+        }
+
+    /// <summary>
+    /// Returns a string representation of the card
+    /// </summary>
+    /// <returns>String in the format Rank of Suit</returns>
+    public override string ToString()
         {
             return $"{Rank} of {Suit}";
         }

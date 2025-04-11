@@ -13,5 +13,6 @@ namespace Euchre.Shared
 
         public enum Rank { Nine, Ten, Jack, Queen, King, Ace }
         #endregion
+
     }
 }
