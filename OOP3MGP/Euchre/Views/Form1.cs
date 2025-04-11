@@ -21,5 +21,10 @@ namespace Euchre
         {
 
         }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
