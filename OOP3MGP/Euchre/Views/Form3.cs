@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Euchre
+namespace Euchre.Views
 {
-    public partial class frmMainMenu : Form
+    public partial class frmEuchre : Form
     {
-        public frmMainMenu()
+        public frmEuchre()
         {
             InitializeComponent();
         }
 
-        private void frmMainMenu_Load(object sender, EventArgs e)
+        private void frmEuchre_Load(object sender, EventArgs e)
         {
 
         }

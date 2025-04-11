@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form1.cs",
+              "RelativeDocumentMoniker": "Euchre\\Views\\Form1.cs",
+              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form1.cs",
+              "RelativeToolTip": "Euchre\\Views\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T03:35:01.539Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,

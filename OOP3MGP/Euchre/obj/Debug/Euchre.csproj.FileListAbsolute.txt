@@ -17,7 +17,6 @@ C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
 =======
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.frmMainMenu.resources
-<<<<<<< HEAD
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe.config
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.pdb
@@ -28,9 +27,14 @@ C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.GenerateResource.c
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.CoreCompileInputs.cache
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
-=======
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.dll
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.xml
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.Up2Date
 >>>>>>> c12a44ff3d38f6fbac97b4aaa6b1ed8250553b14
 >>>>>>> d9af8a11dfb043246f9cf0973041decdc1d95d30
+C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe.config
+C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe
+C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.pdb
+C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.dll
+C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.xml
+C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.Up2Date
