@@ -16,3 +16,5 @@ C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStu
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTe.CBA33735.Up2Date
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.dll
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.pdb
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Newtonsoft.Json.xml

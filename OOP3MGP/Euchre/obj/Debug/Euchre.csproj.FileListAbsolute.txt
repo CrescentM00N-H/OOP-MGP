@@ -8,3 +8,6 @@ C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.CoreCompil
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.frmMainMenu.resources
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.xml
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.Up2Date
