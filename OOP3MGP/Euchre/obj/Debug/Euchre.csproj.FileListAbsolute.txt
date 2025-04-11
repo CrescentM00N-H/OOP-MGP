@@ -8,6 +8,7 @@ C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.CoreCompil
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.frmMainMenu.resources
+<<<<<<< HEAD
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe.config
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.exe
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.pdb
@@ -18,3 +19,8 @@ C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.GenerateResource.c
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.CoreCompileInputs.cache
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.exe
 C:\Euchre\repo\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.pdb
+=======
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.xml
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.Up2Date
+>>>>>>> c12a44ff3d38f6fbac97b4aaa6b1ed8250553b14

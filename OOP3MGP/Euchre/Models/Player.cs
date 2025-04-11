@@ -53,6 +53,10 @@ namespace Euchre.Models
         /// <param name="card">Card to add</param>
         public void AddCard(Card card)
         {
+            if (card == null)
+            {
+                return;
+            }
             Hand.Add(card);
         }
 

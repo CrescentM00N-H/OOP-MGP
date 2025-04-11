@@ -1,5 +1,6 @@
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.csproj.AssemblyReference.cache
 C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
 C:\Euchre\repo\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Euchre\repo\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Euchre\repo\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -18,3 +19,23 @@ C:\Euchre\repo\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.csproj.CoreComp
 C:\Euchre\repo\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTe.CBA33735.Up2Date
 C:\Euchre\repo\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.dll
 C:\Euchre\repo\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.pdb
+=======
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\EuchreTests.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\EuchreTests.pdb
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Euchre.exe
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Euchre.pdb
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Euchre.exe.config
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTe.CBA33735.Up2Date
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\obj\Debug\EuchreTests.pdb
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\willb\Desktop\OOP-MGP\OOP3MGP\EuchreTests\bin\Debug\Newtonsoft.Json.xml
+>>>>>>> c12a44ff3d38f6fbac97b4aaa6b1ed8250553b14
