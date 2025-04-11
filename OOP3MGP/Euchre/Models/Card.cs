@@ -130,61 +130,110 @@ namespace Euchre.Models
         //
 
 
+        /// <summary>
+        /// Shows the player's hand of cards in the UI
+        /// </summary>
+        /// <param name="cards"></param>
         public void ShowPlayerHand(List<Card> cards)
         {
-            foreach (var card in cards)
+
+            clearPlayerHand();
+
+            for (int i = 0; i < cards.Count && i < 5; i++)
             {
-                //make a key with rank and suit to match the naming scheme of the dict containg card png paths
+                var card = cards[i];
                 string key = $"{card.Rank}_{card.Suit}";
-                //cardPaths is a dict with cardnames and paths| rankSuit, path
-                //   if (constraints.cardPaths.TryGetValue(key, out string imagePath))
+
+                if (constraints.cardPaths.TryGetValue(key, out string imagePath))
                 {
                     //makes a pb
                     PictureBox pb = new PictureBox
                     {
-                        // BackgroundImage = Image.FromFile(imagePath),
+                        BackgroundImage = Image.FromFile(imagePath),
                         BackgroundImageLayout = ImageLayout.Stretch,
                         Width = 100,
                         Height = 150,
-                        Margin = new Padding(5)
+                        Margin = new Padding(5),
                         //gives it its own rank,suit through a tag which it keeps its whole life cause its a property of the pb same as the size or colour
-                        // tag = this.key
+                        Tag = key
                     };
 
-                    // main player cards is a panel the new pb gets put on
-                    //mainPlayerCards.Controls.Add(pb);
-
-                } //else{ Console.WriteLine($"image for card {key} not found"); }
-                    
-                
+                    Panel panel = GetPanelByIndex(i);
+                    if (panel != null)
+                    {
+                        //adds the pb to the panel
+                        panel.Controls.Add(pb);
+                    }
+                }
+                else
+                { 
+                    Console.WriteLine($"image for card {key} not found"); 
+                }               
             }
         }
 
 
+        /// <summary>
+        /// Clears the player's hand of cards in the UI
+        /// </summary>
         public void clearPlayerHand()
         {
-            //this is the panel the card images are put into when hand is shown
-            // mainPlayerCards.Controls.Clear();
+            for (int i = 0; i < 5; i++)
+            {
+                Panel panel = GetPanelByIndex(i);
+                if (panel != null)
+                {
+                    // Clear the panel
+                    panel.Controls.Clear();
+                }
+            }
         }
 
+        /// <summary>
+        /// Removes a card from the player's hand in the UI
+        /// </summary>
+        /// <param name="rank"></param>
+        /// <param name="suit"></param>
         public void RemoveCard(string rank, string suit)
         {
             string key = $"{rank}_{suit}";
 
             //loop in reverse over cards(pbs) in controls
-         //   for (int i = mainPlayerCards.Controls.Count - 1; i >= 0; i--)
+            for (int i = 0; i < 5; i++)
             {
+                Panel panel = GetPanelByIndex(i);
                 // if the control is a pb and its tag(pb property, like a description) matches it removes the card(pb)
-               // if (mainPlayerCards.Controls[i] is PictureBox pb &&
-                 //   pb.Tag != null &&
-                 //   pb.Tag.ToString() == key)
+                if (panel != null)
                 {
-                    //remove the card.
-                    //mainPlayerCards.Controls.RemoveAt(i);
-                  //  break;
+                    for (int j = panel.Controls.Count - 1; j >= 0; j--)
+                    {
+                        if (panel.Controls[j] is PictureBox pb && pb.Tag != null && pb.Tag.ToString() == key)
+                        {
+                            panel.Controls.RemoveAt(j);
+                            return; // Exit the loop after removing the card
+                        }
+                    }
                 }
             }
 
+        }
+
+        /// <summary>
+        /// Returns the panel corresponding to the index for displaying cards
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public Panel GetPanelByIndex(int index)
+        {
+            switch (index)
+            {
+                case 0: return pnlPlayerCard1;
+                case 1: return pnlPlayerCard2;
+                case 2: return pnlPlayerCard3;
+                case 3: return pnlPlayerCard4;
+                case 4: return pnlPlayerCard5;
+                default: return null;
+            }
         }
 
         /// <summary>

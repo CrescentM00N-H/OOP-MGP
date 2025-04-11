@@ -49,18 +49,21 @@
             this.panel10 = new System.Windows.Forms.Panel();
             this.pnlTableCard = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.pnlTrump = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.pnlPlayerCard4.SuspendLayout();
             this.pnlPlayerCard3.SuspendLayout();
             this.pnlPlayerCard5.SuspendLayout();
             this.pnlPlayerCard1.SuspendLayout();
             this.pnlPlayerCard2.SuspendLayout();
             this.pnlTableCard.SuspendLayout();
+            this.pnlTrump.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnSettings
             // 
             this.btnSettings.Location = new System.Drawing.Point(22, 19);
-            this.btnSettings.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSettings.Margin = new System.Windows.Forms.Padding(2);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(88, 47);
             this.btnSettings.TabIndex = 0;
@@ -155,7 +158,7 @@
             // 
             this.pnlPlayerCard4.Controls.Add(this.panel2);
             this.pnlPlayerCard4.Location = new System.Drawing.Point(252, 246);
-            this.pnlPlayerCard4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard4.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPlayerCard4.Name = "pnlPlayerCard4";
             this.pnlPlayerCard4.Size = new System.Drawing.Size(84, 122);
             this.pnlPlayerCard4.TabIndex = 8;
@@ -163,7 +166,7 @@
             // panel2
             // 
             this.panel2.Location = new System.Drawing.Point(103, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(100, 111);
             this.panel2.TabIndex = 9;
@@ -172,7 +175,7 @@
             // 
             this.pnlPlayerCard3.Controls.Add(this.panel4);
             this.pnlPlayerCard3.Location = new System.Drawing.Point(338, 246);
-            this.pnlPlayerCard3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard3.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPlayerCard3.Name = "pnlPlayerCard3";
             this.pnlPlayerCard3.Size = new System.Drawing.Size(84, 122);
             this.pnlPlayerCard3.TabIndex = 10;
@@ -180,7 +183,7 @@
             // panel4
             // 
             this.panel4.Location = new System.Drawing.Point(103, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(100, 111);
             this.panel4.TabIndex = 9;
@@ -189,7 +192,7 @@
             // 
             this.pnlPlayerCard5.Controls.Add(this.panel6);
             this.pnlPlayerCard5.Location = new System.Drawing.Point(165, 246);
-            this.pnlPlayerCard5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard5.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPlayerCard5.Name = "pnlPlayerCard5";
             this.pnlPlayerCard5.Size = new System.Drawing.Size(84, 122);
             this.pnlPlayerCard5.TabIndex = 10;
@@ -197,7 +200,7 @@
             // panel6
             // 
             this.panel6.Location = new System.Drawing.Point(103, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(100, 111);
             this.panel6.TabIndex = 9;
@@ -206,7 +209,7 @@
             // 
             this.pnlPlayerCard1.Controls.Add(this.panel8);
             this.pnlPlayerCard1.Location = new System.Drawing.Point(511, 246);
-            this.pnlPlayerCard1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard1.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPlayerCard1.Name = "pnlPlayerCard1";
             this.pnlPlayerCard1.Size = new System.Drawing.Size(84, 122);
             this.pnlPlayerCard1.TabIndex = 10;
@@ -214,7 +217,7 @@
             // panel8
             // 
             this.panel8.Location = new System.Drawing.Point(103, 0);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(100, 111);
             this.panel8.TabIndex = 9;
@@ -223,7 +226,7 @@
             // 
             this.pnlPlayerCard2.Controls.Add(this.panel10);
             this.pnlPlayerCard2.Location = new System.Drawing.Point(424, 246);
-            this.pnlPlayerCard2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard2.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPlayerCard2.Name = "pnlPlayerCard2";
             this.pnlPlayerCard2.Size = new System.Drawing.Size(84, 122);
             this.pnlPlayerCard2.TabIndex = 10;
@@ -231,7 +234,7 @@
             // panel10
             // 
             this.panel10.Location = new System.Drawing.Point(103, 0);
-            this.panel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel10.Margin = new System.Windows.Forms.Padding(2);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(100, 111);
             this.panel10.TabIndex = 9;
@@ -240,7 +243,7 @@
             // 
             this.pnlTableCard.Controls.Add(this.panel12);
             this.pnlTableCard.Location = new System.Drawing.Point(344, 100);
-            this.pnlTableCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlTableCard.Margin = new System.Windows.Forms.Padding(2);
             this.pnlTableCard.Name = "pnlTableCard";
             this.pnlTableCard.Size = new System.Drawing.Size(84, 122);
             this.pnlTableCard.TabIndex = 11;
@@ -248,10 +251,27 @@
             // panel12
             // 
             this.panel12.Location = new System.Drawing.Point(103, 0);
-            this.panel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel12.Margin = new System.Windows.Forms.Padding(2);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(100, 111);
             this.panel12.TabIndex = 9;
+            // 
+            // pnlTrump
+            // 
+            this.pnlTrump.Controls.Add(this.panel3);
+            this.pnlTrump.Location = new System.Drawing.Point(225, 173);
+            this.pnlTrump.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlTrump.Name = "pnlTrump";
+            this.pnlTrump.Size = new System.Drawing.Size(63, 69);
+            this.pnlTrump.TabIndex = 12;
+            // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(103, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(100, 111);
+            this.panel3.TabIndex = 9;
             // 
             // frmEuchre
             // 
@@ -261,6 +281,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pnlTrump);
             this.Controls.Add(this.pnlTableCard);
             this.Controls.Add(this.pnlPlayerCard3);
             this.Controls.Add(this.pnlPlayerCard5);
@@ -277,7 +298,7 @@
             this.Controls.Add(this.btnSettings);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmEuchre";
             this.Text = "Euchre";
             this.Load += new System.EventHandler(this.frmEuchre_Load);
@@ -287,6 +308,7 @@
             this.pnlPlayerCard1.ResumeLayout(false);
             this.pnlPlayerCard2.ResumeLayout(false);
             this.pnlTableCard.ResumeLayout(false);
+            this.pnlTrump.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -314,5 +336,7 @@
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel pnlTableCard;
         private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel pnlTrump;
+        private System.Windows.Forms.Panel panel3;
     }
 }

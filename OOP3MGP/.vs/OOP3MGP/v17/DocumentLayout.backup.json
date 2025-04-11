@@ -3,35 +3,35 @@
   "WorkspaceRootPath": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\euchre\\views\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\views\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\models\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\views\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\euchre\\views\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\views\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\views\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\euchre\\views\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|c:\\oops3-assignment\\repot\\oop-mgp\\oop3mgp\\euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\euchre\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\euchre\\models\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,16 +42,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Euchre\\Models\\Player.cs",
+              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Player.cs",
+              "RelativeToolTip": "Euchre\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T04:40:09.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form2.cs",
+              "RelativeDocumentMoniker": "Euchre\\Views\\Form2.cs",
+              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form2.cs*",
+              "RelativeToolTip": "Euchre\\Views\\Form2.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAhwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T03:51:08.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form3.cs",
+              "RelativeDocumentMoniker": "Euchre\\Views\\Form3.cs",
+              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form3.cs [Design]*",
+              "RelativeToolTip": "Euchre\\Views\\Form3.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T04:07:16.173Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form2.cs",
+              "RelativeDocumentMoniker": "Euchre\\Views\\Form2.cs",
+              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form2.cs [Design]*",
+              "RelativeToolTip": "Euchre\\Views\\Form2.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T03:44:58.729Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form3.cs",
               "RelativeDocumentMoniker": "Euchre\\Views\\Form3.cs",
-              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form3.cs",
-              "RelativeToolTip": "Euchre\\Views\\Form3.cs",
+              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form3.cs*",
+              "RelativeToolTip": "Euchre\\Views\\Form3.cs*",
               "ViewState": "AgIAAAMAAAAAAAAAAAAhwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T04:51:49.368Z",
@@ -59,7 +109,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form1.cs",
+              "RelativeDocumentMoniker": "Euchre\\Views\\Form1.cs",
+              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form1.cs [Design]*",
+              "RelativeToolTip": "Euchre\\Views\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T02:35:50.415Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameLogic.cs",
               "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\GameLogic.cs",
               "RelativeDocumentMoniker": "Euchre\\Models\\GameLogic.cs",
@@ -72,74 +134,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "Euchre\\Models\\Player.cs",
-              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Player.cs",
-              "RelativeToolTip": "Euchre\\Models\\Player.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswEcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:40:09.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form2.cs",
-              "RelativeDocumentMoniker": "Euchre\\Views\\Form2.cs",
-              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form2.cs",
-              "RelativeToolTip": "Euchre\\Views\\Form2.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAhwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T03:51:08.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form3.cs",
-              "RelativeDocumentMoniker": "Euchre\\Views\\Form3.cs",
-              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form3.cs [Design]",
-              "RelativeToolTip": "Euchre\\Views\\Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:07:16.173Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form2.cs",
-              "RelativeDocumentMoniker": "Euchre\\Views\\Form2.cs",
-              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form2.cs [Design]",
-              "RelativeToolTip": "Euchre\\Views\\Form2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T03:44:58.729Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form1.cs",
-              "RelativeDocumentMoniker": "Euchre\\Views\\Form1.cs",
-              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form1.cs [Design]",
-              "RelativeToolTip": "Euchre\\Views\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T02:35:50.415Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form1.cs",
               "RelativeDocumentMoniker": "Euchre\\Views\\Form1.cs",
-              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form1.cs",
-              "RelativeToolTip": "Euchre\\Views\\Form1.cs",
+              "ToolTip": "C:\\OOPS3-Assignment\\Repot\\OOP-MGP\\OOP3MGP\\Euchre\\Views\\Form1.cs*",
+              "RelativeToolTip": "Euchre\\Views\\Form1.cs*",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T03:35:01.539Z",
