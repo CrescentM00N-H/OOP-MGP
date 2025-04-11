@@ -41,6 +41,12 @@ namespace Euchre.Views
            
             Card.ShowPlayerHand(playerCards, pnlPlayerCard1, pnlPlayerCard2, pnlPlayerCard3, pnlPlayerCard4, pnlPlayerCard5);
         }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            frmSettings settingsForm = new frmSettings();
+            settingsForm.Show();        // Show the new form
+        }
     }
 }
 

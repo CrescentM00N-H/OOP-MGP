@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Euchre.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,14 +18,33 @@ namespace Euchre
             InitializeComponent();
         }
 
-        private void frmMainMenu_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            
+            frmEuchre gameForm = new frmEuchre();
+            gameForm.Show();        // Show the new form
+            this.Close();          // Close the current form
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            frmSettings settingsForm = new frmSettings();
+            settingsForm.Show();        // Show the new form
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+            "DO YOU WANT TO CLOSE THE APPLICATION?",
+            "CONFIRM EXIT",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Question
+            );
+
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+
         }
     }
 }
