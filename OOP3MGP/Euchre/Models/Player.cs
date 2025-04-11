@@ -18,7 +18,6 @@ namespace Euchre.Models
         public List<Card> Hand { get; set; }
         public int ID { get; set; }
         public int Points { get; set; }
-        public bool IsAI { get; set; }
 
         #endregion
 
@@ -29,14 +28,12 @@ namespace Euchre.Models
         /// <param name="name">Players Name</param>
         /// <param name="hand">players hand of cards</param>
         /// <param name="points"> players score</param>
-        /// <param name="isAI">Determines if player is AI or not.</param>
-        public Player(String name, List<Card> hand, int points, bool isAI )
+        public Player(String name, List<Card> hand, int points)
         {
             this.Name = name;
             this.Hand = hand;
             this.Points = points;
             this.ID = nextID;
-            this.IsAI = isAI;
             nextID++;
             Player.Players.Add( this );
         }

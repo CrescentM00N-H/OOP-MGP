@@ -11,8 +11,8 @@ namespace EuchreTests
         [TestMethod]
         public void TestAddCard()
         {
-            Player TestPlayer = new Player("Test Name", null, 1, false);
-            Card card = new Card(Constants.Suit.Diamonds, Constants.Rank.Jack, Constants.Suit.Hearts);
+            Player TestPlayer = new Player("Test Name", null, 1);
+            Card card = new Card(Constants.Suit.Diamonds, Constants.Rank.Jack);
             TestPlayer.AddCard(card);
             Assert.Equals(TestPlayer.Hand.Count, 1);
         }
