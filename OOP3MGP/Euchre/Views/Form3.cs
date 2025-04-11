@@ -21,5 +21,11 @@ namespace Euchre.Views
         {
 
         }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            frmSettings settingsForm = new frmSettings();
+            settingsForm.Show();        // Show the new form
+        }
     }
 }
