@@ -52,8 +52,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AIPlayerTest.cs" />
+    <Compile Include="CardTest.cs" />
+    <Compile Include="GameLogicTest.cs" />
     <Compile Include="PlayerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrickTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
