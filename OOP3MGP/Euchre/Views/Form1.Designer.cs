@@ -28,20 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainMenu));
+            this.pbxTitle = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pbxTitle
+            // 
+            this.pbxTitle.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pbxTitle.ErrorImage")));
+            this.pbxTitle.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbxTitle.InitialImage")));
+            this.pbxTitle.Location = new System.Drawing.Point(355, 157);
+            this.pbxTitle.Name = "pbxTitle";
+            this.pbxTitle.Size = new System.Drawing.Size(850, 241);
+            this.pbxTitle.TabIndex = 0;
+            this.pbxTitle.TabStop = false;
             // 
             // frmMainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.Green;
+            this.ClientSize = new System.Drawing.Size(1600, 865);
+            this.Controls.Add(this.pbxTitle);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmMainMenu";
             this.Text = "Main Menu";
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox pbxTitle;
     }
 }
 
