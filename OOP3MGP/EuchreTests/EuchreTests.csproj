@@ -57,11 +57,7 @@
     <Compile Include="GameLogicTest.cs" />
     <Compile Include="PlayerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <Compile Include="TrickTest.cs" />
-=======
-    <Compile Include="JSONTest.cs" />
->>>>>>> c12a44ff3d38f6fbac97b4aaa6b1ed8250553b14
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

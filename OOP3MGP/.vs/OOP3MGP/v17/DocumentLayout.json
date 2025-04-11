@@ -1,58 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\",
+  "WorkspaceRootPath": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\CardTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EuchreTests\\CardTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|c:\\users\\willb\\desktop\\oop-mgp\\oop3mgp\\euchretests\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|solutionrelative:euchretests\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\euchre\\models\\trick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchretests\\tricktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|solutionrelative:euchretests\\tricktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchretests\\gamelogictest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|solutionrelative:euchretests\\gamelogictest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchretests\\cardtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|solutionrelative:euchretests\\cardtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchretests\\aiplayertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05C6B24-FD8E-4F9A-8EA4-709088500506}|EuchreTests\\EuchreTests.csproj|solutionrelative:euchretests\\aiplayertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchre\\models\\trick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\trick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\euchre\\models\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchre\\models\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\euchre\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchre\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\euchre\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchre\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\euchre\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchre\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\euchre\\models\\aiplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchre\\models\\aiplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\aiplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\euchre\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchre\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\euchre\\models\\gamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\euchre\\models\\gamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C39AC54-0F2D-4ABD-8E85-460798FD03DE}|Euchre\\Euchre.csproj|solutionrelative:euchre\\models\\gamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\TrickTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EuchreTests\\TrickTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\GameLogicTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EuchreTests\\GameLogicTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\AIPlayerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EuchreTests\\AIPlayerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\PlayerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EuchreTests\\PlayerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,80 +62,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TrickTest.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\TrickTest.cs",
-              "RelativeDocumentMoniker": "EuchreTests\\TrickTest.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\TrickTest.cs",
-              "RelativeToolTip": "EuchreTests\\TrickTest.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T01:41:31.313Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameLogicTest.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\GameLogicTest.cs",
-              "RelativeDocumentMoniker": "EuchreTests\\GameLogicTest.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\GameLogicTest.cs",
-              "RelativeToolTip": "EuchreTests\\GameLogicTest.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswEkAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TrickTest.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\TrickTest.cs",
+              "RelativeDocumentMoniker": "EuchreTests\\TrickTest.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\TrickTest.cs",
+              "RelativeToolTip": "EuchreTests\\TrickTest.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAACsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T01:41:13.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T01:41:31.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameLogicTest.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\GameLogicTest.cs",
+              "RelativeDocumentMoniker": "EuchreTests\\GameLogicTest.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\GameLogicTest.cs",
+              "RelativeToolTip": "EuchreTests\\GameLogicTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T01:41:13.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardTest.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\CardTest.cs",
+              "RelativeDocumentMoniker": "EuchreTests\\CardTest.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\CardTest.cs",
+              "RelativeToolTip": "EuchreTests\\CardTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T01:40:48.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AIPlayerTest.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\AIPlayerTest.cs",
+              "RelativeDocumentMoniker": "EuchreTests\\AIPlayerTest.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\AIPlayerTest.cs",
+              "RelativeToolTip": "EuchreTests\\AIPlayerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T01:26:00.566Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CardTest.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\CardTest.cs",
-              "RelativeDocumentMoniker": "EuchreTests\\CardTest.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\CardTest.cs",
-              "RelativeToolTip": "EuchreTests\\CardTest.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAcwHwAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T01:40:48.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AIPlayerTest.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\AIPlayerTest.cs",
-              "RelativeDocumentMoniker": "EuchreTests\\AIPlayerTest.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\AIPlayerTest.cs",
-              "RelativeToolTip": "EuchreTests\\AIPlayerTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T01:26:00.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "PlayerTest.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\PlayerTest.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\PlayerTest.cs",
               "RelativeDocumentMoniker": "EuchreTests\\PlayerTest.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\EuchreTests\\PlayerTest.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\EuchreTests\\PlayerTest.cs",
               "RelativeToolTip": "EuchreTests\\PlayerTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T01:25:01.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Player.cs",
               "RelativeDocumentMoniker": "Euchre\\Models\\Player.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Player.cs",
               "RelativeToolTip": "Euchre\\Models\\Player.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAADwv4sAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -143,11 +143,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "GameStats.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\GameStats.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\GameStats.cs",
               "RelativeDocumentMoniker": "Euchre\\Models\\GameStats.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\GameStats.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\GameStats.cs",
               "RelativeToolTip": "Euchre\\Models\\GameStats.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowDwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -155,11 +155,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "AIPlayer.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\AIPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\AIPlayer.cs",
               "RelativeDocumentMoniker": "Euchre\\Models\\AIPlayer.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\AIPlayer.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\AIPlayer.cs",
               "RelativeToolTip": "Euchre\\Models\\AIPlayer.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAUwGwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -167,11 +167,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Account.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Account.cs",
               "RelativeDocumentMoniker": "Euchre\\Models\\Account.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Account.cs",
               "RelativeToolTip": "Euchre\\Models\\Account.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,11 +179,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Trick.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Trick.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Trick.cs",
               "RelativeDocumentMoniker": "Euchre\\Models\\Trick.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Trick.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Trick.cs",
               "RelativeToolTip": "Euchre\\Models\\Trick.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAYwDkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,11 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "GameLogic.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\GameLogic.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\GameLogic.cs",
               "RelativeDocumentMoniker": "Euchre\\Models\\GameLogic.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\GameLogic.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\GameLogic.cs",
               "RelativeToolTip": "Euchre\\Models\\GameLogic.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAuwHkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -203,11 +203,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Deck.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Deck.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Deck.cs",
               "RelativeDocumentMoniker": "Euchre\\Models\\Deck.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Deck.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Deck.cs",
               "RelativeToolTip": "Euchre\\Models\\Deck.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -215,29 +215,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Card.cs",
+              "DocumentMoniker": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Card.cs",
               "RelativeDocumentMoniker": "Euchre\\Models\\Card.cs",
-              "ToolTip": "C:\\Euchre\\repo\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\willb\\Desktop\\OOP-MGP\\OOP3MGP\\Euchre\\Models\\Card.cs",
               "RelativeToolTip": "Euchre\\Models\\Card.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T21:21:23.215Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
