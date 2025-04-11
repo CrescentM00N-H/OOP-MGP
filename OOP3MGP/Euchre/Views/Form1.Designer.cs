@@ -43,10 +43,10 @@
             this.pbxTitle.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pbxTitle.ErrorImage")));
             this.pbxTitle.Image = ((System.Drawing.Image)(resources.GetObject("pbxTitle.Image")));
             this.pbxTitle.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbxTitle.InitialImage")));
-            this.pbxTitle.Location = new System.Drawing.Point(53, 48);
+            this.pbxTitle.Location = new System.Drawing.Point(232, 89);
             this.pbxTitle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbxTitle.Name = "pbxTitle";
-            this.pbxTitle.Size = new System.Drawing.Size(688, 130);
+            this.pbxTitle.Size = new System.Drawing.Size(349, 73);
             this.pbxTitle.TabIndex = 0;
             this.pbxTitle.TabStop = false;
             // 
@@ -101,7 +101,7 @@
             this.BackColor = System.Drawing.Color.Green;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(783, 451);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSettings);

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Euchre.Shared;
 
 namespace Euchre.Models
@@ -74,7 +76,7 @@ namespace Euchre.Models
                 return GetRankValue().CompareTo(other.GetRankValue());
             }
 
-            return 0; 
+            return 0;
         }
 
         /// <summary>
@@ -88,7 +90,7 @@ namespace Euchre.Models
                 // Left bower
                 if (Rank == Constants.Rank.Jack && Suit == GetLeftBowerSuit(Suit)) return 7;
                 // Right bower
-                if (Rank == Constants.Rank.Jack) return 8; 
+                if (Rank == Constants.Rank.Jack) return 8;
             }
             switch (Rank)
             {
@@ -117,6 +119,72 @@ namespace Euchre.Models
                 case Constants.Suit.Clubs: return Constants.Suit.Spades;
                 default: return trump;
             }
+        }
+
+        //
+        //
+        // in progress below
+        //
+        //
+        //
+        //
+
+
+        public void ShowPlayerHand(List<Card> cards)
+        {
+            foreach (var card in cards)
+            {
+                //make a key with rank and suit to match the naming scheme of the dict containg card png paths
+                string key = $"{card.Rank}_{card.Suit}";
+                //cardPaths is a dict with cardnames and paths| rankSuit, path
+                //   if (constraints.cardPaths.TryGetValue(key, out string imagePath))
+                {
+                    //makes a pb
+                    PictureBox pb = new PictureBox
+                    {
+                        // BackgroundImage = Image.FromFile(imagePath),
+                        BackgroundImageLayout = ImageLayout.Stretch,
+                        Width = 100,
+                        Height = 150,
+                        Margin = new Padding(5)
+                        //gives it its own rank,suit through a tag which it keeps its whole life cause its a property of the pb same as the size or colour
+                        // tag = this.key
+                    };
+
+                    // main player cards is a panel the new pb gets put on
+                    //mainPlayerCards.Controls.Add(pb);
+
+                } //else{ Console.WriteLine($"image for card {key} not found"); }
+                    
+                
+            }
+        }
+
+
+        public void clearPlayerHand()
+        {
+            //this is the panel the card images are put into when hand is shown
+            // mainPlayerCards.Controls.Clear();
+        }
+
+        public void RemoveCard(string rank, string suit)
+        {
+            string key = $"{rank}_{suit}";
+
+            //loop in reverse over cards(pbs) in controls
+         //   for (int i = mainPlayerCards.Controls.Count - 1; i >= 0; i--)
+            {
+                // if the control is a pb and its tag(pb property, like a description) matches it removes the card(pb)
+               // if (mainPlayerCards.Controls[i] is PictureBox pb &&
+                 //   pb.Tag != null &&
+                 //   pb.Tag.ToString() == key)
+                {
+                    //remove the card.
+                    //mainPlayerCards.Controls.RemoveAt(i);
+                  //  break;
+                }
+            }
+
         }
 
         /// <summary>

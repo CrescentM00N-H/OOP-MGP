@@ -37,24 +37,24 @@
             this.lblScoreAIName = new System.Windows.Forms.Label();
             this.lblPlayerScore = new System.Windows.Forms.Label();
             this.lblAIScore = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlPlayerCard4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.pnlPlayerCard3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.pnlPlayerCard5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.pnlPlayerCard1 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.pnlPlayerCard2 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
+            this.pnlTableCard = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel11.SuspendLayout();
+            this.pnlPlayerCard4.SuspendLayout();
+            this.pnlPlayerCard3.SuspendLayout();
+            this.pnlPlayerCard5.SuspendLayout();
+            this.pnlPlayerCard1.SuspendLayout();
+            this.pnlPlayerCard2.SuspendLayout();
+            this.pnlTableCard.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnSettings
@@ -151,15 +151,14 @@
             this.lblAIScore.TabIndex = 7;
             this.lblAIScore.Text = "0";
             // 
-            // panel1
+            // pnlPlayerCard4
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(252, 246);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(84, 122);
-            this.panel1.TabIndex = 8;
+            this.pnlPlayerCard4.Controls.Add(this.panel2);
+            this.pnlPlayerCard4.Location = new System.Drawing.Point(252, 246);
+            this.pnlPlayerCard4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard4.Name = "pnlPlayerCard4";
+            this.pnlPlayerCard4.Size = new System.Drawing.Size(84, 122);
+            this.pnlPlayerCard4.TabIndex = 8;
             // 
             // panel2
             // 
@@ -169,15 +168,14 @@
             this.panel2.Size = new System.Drawing.Size(100, 111);
             this.panel2.TabIndex = 9;
             // 
-            // panel3
+            // pnlPlayerCard3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Location = new System.Drawing.Point(338, 246);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(84, 122);
-            this.panel3.TabIndex = 10;
+            this.pnlPlayerCard3.Controls.Add(this.panel4);
+            this.pnlPlayerCard3.Location = new System.Drawing.Point(338, 246);
+            this.pnlPlayerCard3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard3.Name = "pnlPlayerCard3";
+            this.pnlPlayerCard3.Size = new System.Drawing.Size(84, 122);
+            this.pnlPlayerCard3.TabIndex = 10;
             // 
             // panel4
             // 
@@ -187,15 +185,14 @@
             this.panel4.Size = new System.Drawing.Size(100, 111);
             this.panel4.TabIndex = 9;
             // 
-            // panel5
+            // pnlPlayerCard5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.Controls.Add(this.panel6);
-            this.panel5.Location = new System.Drawing.Point(165, 246);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(84, 122);
-            this.panel5.TabIndex = 10;
+            this.pnlPlayerCard5.Controls.Add(this.panel6);
+            this.pnlPlayerCard5.Location = new System.Drawing.Point(165, 246);
+            this.pnlPlayerCard5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard5.Name = "pnlPlayerCard5";
+            this.pnlPlayerCard5.Size = new System.Drawing.Size(84, 122);
+            this.pnlPlayerCard5.TabIndex = 10;
             // 
             // panel6
             // 
@@ -205,15 +202,14 @@
             this.panel6.Size = new System.Drawing.Size(100, 111);
             this.panel6.TabIndex = 9;
             // 
-            // panel7
+            // pnlPlayerCard1
             // 
-            this.panel7.BackColor = System.Drawing.Color.Transparent;
-            this.panel7.Controls.Add(this.panel8);
-            this.panel7.Location = new System.Drawing.Point(511, 246);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(84, 122);
-            this.panel7.TabIndex = 10;
+            this.pnlPlayerCard1.Controls.Add(this.panel8);
+            this.pnlPlayerCard1.Location = new System.Drawing.Point(511, 246);
+            this.pnlPlayerCard1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard1.Name = "pnlPlayerCard1";
+            this.pnlPlayerCard1.Size = new System.Drawing.Size(84, 122);
+            this.pnlPlayerCard1.TabIndex = 10;
             // 
             // panel8
             // 
@@ -223,15 +219,14 @@
             this.panel8.Size = new System.Drawing.Size(100, 111);
             this.panel8.TabIndex = 9;
             // 
-            // panel9
+            // pnlPlayerCard2
             // 
-            this.panel9.BackColor = System.Drawing.Color.Transparent;
-            this.panel9.Controls.Add(this.panel10);
-            this.panel9.Location = new System.Drawing.Point(424, 246);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(84, 122);
-            this.panel9.TabIndex = 10;
+            this.pnlPlayerCard2.Controls.Add(this.panel10);
+            this.pnlPlayerCard2.Location = new System.Drawing.Point(424, 246);
+            this.pnlPlayerCard2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPlayerCard2.Name = "pnlPlayerCard2";
+            this.pnlPlayerCard2.Size = new System.Drawing.Size(84, 122);
+            this.pnlPlayerCard2.TabIndex = 10;
             // 
             // panel10
             // 
@@ -241,15 +236,14 @@
             this.panel10.Size = new System.Drawing.Size(100, 111);
             this.panel10.TabIndex = 9;
             // 
-            // panel11
+            // pnlTableCard
             // 
-            this.panel11.BackColor = System.Drawing.Color.Transparent;
-            this.panel11.Controls.Add(this.panel12);
-            this.panel11.Location = new System.Drawing.Point(358, 164);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(84, 122);
-            this.panel11.TabIndex = 11;
+            this.pnlTableCard.Controls.Add(this.panel12);
+            this.pnlTableCard.Location = new System.Drawing.Point(344, 100);
+            this.pnlTableCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlTableCard.Name = "pnlTableCard";
+            this.pnlTableCard.Size = new System.Drawing.Size(84, 122);
+            this.pnlTableCard.TabIndex = 11;
             // 
             // panel12
             // 
@@ -266,13 +260,13 @@
             this.BackColor = System.Drawing.Color.Green;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(771, 438);
-            this.Controls.Add(this.panel11);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pnlTableCard);
+            this.Controls.Add(this.pnlPlayerCard3);
+            this.Controls.Add(this.pnlPlayerCard5);
+            this.Controls.Add(this.pnlPlayerCard1);
+            this.Controls.Add(this.pnlPlayerCard2);
+            this.Controls.Add(this.pnlPlayerCard4);
             this.Controls.Add(this.lblAIScore);
             this.Controls.Add(this.lblPlayerScore);
             this.Controls.Add(this.lblScoreAIName);
@@ -287,12 +281,12 @@
             this.Name = "frmEuchre";
             this.Text = "Euchre";
             this.Load += new System.EventHandler(this.frmEuchre_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
+            this.pnlPlayerCard4.ResumeLayout(false);
+            this.pnlPlayerCard3.ResumeLayout(false);
+            this.pnlPlayerCard5.ResumeLayout(false);
+            this.pnlPlayerCard1.ResumeLayout(false);
+            this.pnlPlayerCard2.ResumeLayout(false);
+            this.pnlTableCard.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,17 +302,17 @@
         private System.Windows.Forms.Label lblScoreAIName;
         private System.Windows.Forms.Label lblPlayerScore;
         private System.Windows.Forms.Label lblAIScore;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlPlayerCard4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel pnlPlayerCard3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel pnlPlayerCard5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel pnlPlayerCard1;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel pnlPlayerCard2;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel pnlTableCard;
         private System.Windows.Forms.Panel panel12;
     }
 }
