@@ -21,5 +21,10 @@ namespace Euchre.Views
         {
 
         }
+
+        private void frmSettings_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

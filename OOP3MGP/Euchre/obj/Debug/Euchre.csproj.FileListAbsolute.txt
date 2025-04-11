@@ -38,3 +38,5 @@ C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Euchre.pdb
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.dll
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.xml
 C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.Up2Date
+C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.Views.frmSettings.resources
+C:\OOPS3-Assignment\Repot\OOP-MGP\OOP3MGP\Euchre\obj\Debug\Euchre.Views.frmEuchre.resources
