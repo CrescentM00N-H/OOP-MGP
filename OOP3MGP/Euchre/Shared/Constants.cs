@@ -18,40 +18,40 @@ namespace Euchre.Shared
         = new Dictionary<string, string>
         {
             // Aces
-            { "Ace,Clubs",         "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Aczzze,Spades.png" },
-            { "Ace,Diamonds",      "Cards/PixelTheme/Ace,Diamonds.png" },
-            { "Ace,Hearts",        "Cards/PixelTheme/Ace,Hearts.png" },
-            { "Ace,Spades",        "Cards/PixelTheme/Ace,Spades.png" },
+            { "Ace,Clubs",         "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Ace,Spades.png" },
+            { "Ace,Diamonds",      "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Ace,Diamonds.png" },
+            { "Ace,Hearts",        "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Ace,Hearts.png" },
+            { "Ace,Spades",        "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Ace,Spades.png" },
 
             // Nines
-            { "Nine,Clubs",        "Cards/PixelTheme/Nine,Clubs.png" },
-            { "Nine,Diamonds",     "Cards/PixelTheme/Nine,Diamonds.png" },
-            { "Nine,Hearts",       "Cards/PixelTheme/Nine,Hearts.png" },
-            { "Nine,Spades",       "Cards/PixelTheme/Nine,Spades.png" },
+            { "Nine,Clubs",        "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Nine,Clubs.png" },
+            { "Nine,Diamonds",     "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Nine,Diamonds.png" },
+            { "Nine,Hearts",       "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Nine,Hearts.png" },
+            { "Nine,Spades",       "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Nine,Spades.png" },
 
             // Tens
-            { "Ten,Clubs",         "Cards/PixelTheme/Ten,Clubs.png" },
-            { "Ten,Diamonds",      "Cards/PixelTheme/Ten,Diamonds.png" },
-            { "Ten,Hearts",        "Cards/PixelTheme/Ten,Hearts.png" },
-            { "Ten,Spades",        "Cards/PixelTheme/Ten,Spades.png" },
+            { "Ten,Clubs",         "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Ten,Clubs.png" },
+            { "Ten,Diamonds",      "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Ten,Diamonds.png" },
+            { "Ten,Hearts",        "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Ten,Hearts.png" },
+            { "Ten,Spades",        "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Ten,Spades.png" },
 
             // Jacks
-            { "Jack,Clubs",        "Cards/PixelTheme/Jack,Clubs.png" },
-            { "Jack,Diamonds",     "Cards/PixelTheme/Jack,Diamonds.png" },
-            { "Jack,Hearts",       "Cards/PixelTheme/Jack,Hearts.png" },
-            { "Jack,Spades",       "Cards/PixelTheme/Jack,Spades.png" },
+            { "Jack,Clubs",        "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Jack,Clubs.png" },
+            { "Jack,Diamonds",     "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Jack,Diamonds.png" },
+            { "Jack,Hearts",       "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Jack,Hearts.png" },
+            { "Jack,Spades",       "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Jack,Spades.png" },
 
             // Queens
-            { "Queen,Clubs",       "Cards/PixelTheme/Queen,Clubs.png" },
-            { "Queen,Diamonds",    "Cards/PixelTheme/Queen,Diamonds.png" },
-            { "Queen,Hearts",      "Cards/PixelTheme/Queen,Hearts.png" },
-            { "Queen,Spades",      "Cards/PixelTheme/Queen,Spades.png" },
+            { "Queen,Clubs",       "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Queen,Clubs.png" },
+            { "Queen,Diamonds",    "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Queen,Diamonds.png" },
+            { "Queen,Hearts",      "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Queen,Hearts.png" },
+            { "Queen,Spades",      "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Queen,Spades.png" },
 
             // Kings
-            { "King,Clubs",        "Cards/PixelTheme/King,Clubs.png" },
-            { "King,Diamonds",     "Cards/PixelTheme/King,Diamonds.png" },
-            { "King,Hearts",       "Cards/PixelTheme/King,Hearts.png" },
-            { "King,Spades",       "Cards/PixelTheme/King,Spades.png" },
+            { "King,Clubs",        "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\King,Clubs.png" },
+            { "King,Diamonds",     "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\King,Diamonds.png" },
+            { "King,Hearts",       "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\King,Hearts.png" },
+            { "King,Spades",       "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\King,Spades.png" },
 
             // Card backs
             { "BlueCardBack",     "Cards/PixelTheme/BlueCardBack.png" },
