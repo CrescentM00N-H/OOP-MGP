@@ -122,8 +122,16 @@ namespace Euchre.Models
             }
         }
 
-
-
+        /// <summary>
+        /// shows players hand on the ui using panels to display an image with the cooresponding rank and suit. takes a key from the player object
+        /// including the rank,suit of a card then gets the image by path using the rank,suit to put it on the panel
+        /// </summary>
+        /// <param name="cards"></param>
+        /// <param name="pnl1"></param>
+        /// <param name="pnl2"></param>
+        /// <param name="pnl3"></param>
+        /// <param name="pnl4"></param>
+        /// <param name="pnl5"></param>
         public static void ShowPlayerHand(List<Card> cards, Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
         {
             clearPlayerHand(pnl1, pnl2, pnl3, pnl4, pnl5);
@@ -161,7 +169,14 @@ namespace Euchre.Models
         }
     
         
-
+        /// <summary>
+        /// renmoves all player cards from ui
+        /// </summary>
+        /// <param name="pnl1"></param>
+        /// <param name="pnl2"></param>
+        /// <param name="pnl3"></param>
+        /// <param name="pnl4"></param>
+        /// <param name="pnl5"></param>
         public static void clearPlayerHand(Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
         {
             Panel[] panels = new Panel[] { pnl1, pnl2, pnl3, pnl4, pnl5 };
@@ -171,6 +186,16 @@ namespace Euchre.Models
             }
         }
 
+        /// <summary>
+        /// returns the panel specified by index
+        /// </summary>
+        /// <param name="index"></param>
+        /// <param name="pnl1"></param>
+        /// <param name="pnl2"></param>
+        /// <param name="pnl3"></param>
+        /// <param name="pnl4"></param>
+        /// <param name="pnl5"></param>
+        /// <returns></returns>
         public static Panel GetPanelByIndex(int index, Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
         {
             switch (index)
@@ -184,6 +209,16 @@ namespace Euchre.Models
             }
         }
 
+        /// <summary>
+        /// removes a card from the ui specified by the cards rank and suit
+        /// </summary>
+        /// <param name="rank"></param>
+        /// <param name="suit"></param>
+        /// <param name="pnl1"></param>
+        /// <param name="pnl2"></param>
+        /// <param name="pnl3"></param>
+        /// <param name="pnl4"></param>
+        /// <param name="pnl5"></param>
         public static void RemoveCard(string rank, string suit, Panel pnl1, Panel pnl2, Panel pnl3, Panel pnl4, Panel pnl5)
         {
             string key = $"{rank}_{suit}";

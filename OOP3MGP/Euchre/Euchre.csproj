@@ -116,7 +116,9 @@
     <Content Include="Cards\PixelTheme\Ace,Clubs.png" />
     <Content Include="Cards\PixelTheme\Ace,Diamonds.png" />
     <Content Include="Cards\PixelTheme\Ace,Hearts.png" />
-    <Content Include="Cards\PixelTheme\Ace,Spades.png" />
+    <Content Include="Cards\PixelTheme\Ace,Spades.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Cards\PixelTheme\BlueCardBack.png" />
     <Content Include="Cards\PixelTheme\BlueCardBackSpotted.png" />
     <Content Include="Cards\PixelTheme\Jack,Clubs.png" />
