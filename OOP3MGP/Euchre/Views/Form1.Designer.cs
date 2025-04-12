@@ -43,10 +43,10 @@
             this.pbxTitle.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pbxTitle.ErrorImage")));
             this.pbxTitle.Image = ((System.Drawing.Image)(resources.GetObject("pbxTitle.Image")));
             this.pbxTitle.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbxTitle.InitialImage")));
-            this.pbxTitle.Location = new System.Drawing.Point(232, 89);
+            this.pbxTitle.Location = new System.Drawing.Point(62, 34);
             this.pbxTitle.Margin = new System.Windows.Forms.Padding(2);
             this.pbxTitle.Name = "pbxTitle";
-            this.pbxTitle.Size = new System.Drawing.Size(349, 73);
+            this.pbxTitle.Size = new System.Drawing.Size(669, 125);
             this.pbxTitle.TabIndex = 0;
             this.pbxTitle.TabStop = false;
             // 
