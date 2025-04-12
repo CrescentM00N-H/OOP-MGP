@@ -18,40 +18,40 @@ namespace Euchre.Shared
         = new Dictionary<string, string>
         {
             // Aces
-            { "AceClubs",         "Cards/PixelTheme/Ace,Clubs.png" },
-            { "AceDiamonds",      "Cards/PixelTheme/Ace,Diamonds.png" },
-            { "AceHearts",        "Cards/PixelTheme/Ace,Hearts.png" },
-            { "AceSpades",        "Cards/PixelTheme/Ace,Spades.png" },
+            { "Ace,Clubs",         "C:\\downloads-\\EuchreRepo\\OOP3MGP\\Euchre\\Cards\\PixelTheme\\Aczzze,Spades.png" },
+            { "Ace,Diamonds",      "Cards/PixelTheme/Ace,Diamonds.png" },
+            { "Ace,Hearts",        "Cards/PixelTheme/Ace,Hearts.png" },
+            { "Ace,Spades",        "Cards/PixelTheme/Ace,Spades.png" },
 
             // Nines
-            { "NineClubs",        "Cards/PixelTheme/Nine,Clubs.png" },
-            { "NineDiamonds",     "Cards/PixelTheme/Nine,Diamonds.png" },
-            { "NineHearts",       "Cards/PixelTheme/Nine,Hearts.png" },
-            { "NineSpades",       "Cards/PixelTheme/Nine,Spades.png" },
+            { "Nine,Clubs",        "Cards/PixelTheme/Nine,Clubs.png" },
+            { "Nine,Diamonds",     "Cards/PixelTheme/Nine,Diamonds.png" },
+            { "Nine,Hearts",       "Cards/PixelTheme/Nine,Hearts.png" },
+            { "Nine,Spades",       "Cards/PixelTheme/Nine,Spades.png" },
 
             // Tens
-            { "TenClubs",         "Cards/PixelTheme/Ten,Clubs.png" },
-            { "TenDiamonds",      "Cards/PixelTheme/Ten,Diamonds.png" },
-            { "TenHearts",        "Cards/PixelTheme/Ten,Hearts.png" },
-            { "TenSpades",        "Cards/PixelTheme/Ten,Spades.png" },
+            { "Ten,Clubs",         "Cards/PixelTheme/Ten,Clubs.png" },
+            { "Ten,Diamonds",      "Cards/PixelTheme/Ten,Diamonds.png" },
+            { "Ten,Hearts",        "Cards/PixelTheme/Ten,Hearts.png" },
+            { "Ten,Spades",        "Cards/PixelTheme/Ten,Spades.png" },
 
             // Jacks
-            { "JackClubs",        "Cards/PixelTheme/Jack,Clubs.png" },
-            { "JackDiamonds",     "Cards/PixelTheme/Jack,Diamonds.png" },
-            { "JackHearts",       "Cards/PixelTheme/Jack,Hearts.png" },
-            { "JackSpades",       "Cards/PixelTheme/Jack,Spades.png" },
+            { "Jack,Clubs",        "Cards/PixelTheme/Jack,Clubs.png" },
+            { "Jack,Diamonds",     "Cards/PixelTheme/Jack,Diamonds.png" },
+            { "Jack,Hearts",       "Cards/PixelTheme/Jack,Hearts.png" },
+            { "Jack,Spades",       "Cards/PixelTheme/Jack,Spades.png" },
 
             // Queens
-            { "QueenClubs",       "Cards/PixelTheme/Queen,Clubs.png" },
-            { "QueenDiamonds",    "Cards/PixelTheme/Queen,Diamonds.png" },
-            { "QueenHearts",      "Cards/PixelTheme/Queen,Hearts.png" },
-            { "QueenSpades",      "Cards/PixelTheme/Queen,Spades.png" },
+            { "Queen,Clubs",       "Cards/PixelTheme/Queen,Clubs.png" },
+            { "Queen,Diamonds",    "Cards/PixelTheme/Queen,Diamonds.png" },
+            { "Queen,Hearts",      "Cards/PixelTheme/Queen,Hearts.png" },
+            { "Queen,Spades",      "Cards/PixelTheme/Queen,Spades.png" },
 
             // Kings
-            { "KingClubs",        "Cards/PixelTheme/King,Clubs.png" },
-            { "KingDiamonds",     "Cards/PixelTheme/King,Diamonds.png" },
-            { "KingHearts",       "Cards/PixelTheme/King,Hearts.png" },
-            { "KingSpades",       "Cards/PixelTheme/King,Spades.png" },
+            { "King,Clubs",        "Cards/PixelTheme/King,Clubs.png" },
+            { "King,Diamonds",     "Cards/PixelTheme/King,Diamonds.png" },
+            { "King,Hearts",       "Cards/PixelTheme/King,Hearts.png" },
+            { "King,Spades",       "Cards/PixelTheme/King,Spades.png" },
 
             // Card backs
             { "BlueCardBack",     "Cards/PixelTheme/BlueCardBack.png" },
