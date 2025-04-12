@@ -22,7 +22,7 @@ namespace Euchre
         {
             frmEuchre gameForm = new frmEuchre();
             gameForm.Show();        // Show the new form
-            this.Close();          // Close the current form
+            this.Hide();          // Close the current form
         }
 
         private void btnSettings_Click(object sender, EventArgs e)

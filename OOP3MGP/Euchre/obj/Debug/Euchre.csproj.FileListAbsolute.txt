@@ -55,3 +55,4 @@ C:\downloads-\EuchreRepo\OOP3MGP\Euchre\bin\Debug\Euchre.pdb
 C:\downloads-\EuchreRepo\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.dll
 C:\downloads-\EuchreRepo\OOP3MGP\Euchre\bin\Debug\Newtonsoft.Json.xml
 C:\downloads-\EuchreRepo\OOP3MGP\Euchre\obj\Debug\Euchre.csproj.Up2Date
+C:\downloads-\EuchreRepo\OOP3MGP\Euchre\bin\Debug\Cards\PixelTheme\Ace,Spades.png
