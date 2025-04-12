@@ -32,14 +32,18 @@ namespace Euchre.Views
         private void frmEuchre_Load(object sender, EventArgs e)
         {
 
-            List<Card> playerCards = new List<Card>
-            {
-                new Card(Constants.Suit.Spades, Constants.Rank.Ace)
-                // ... add additional test cards if needed.
-            };
+            List<Card> dealtCards = deck.Deal(5);
+            player.AddCards(dealtCards);
 
-           
-            Card.ShowPlayerHand(playerCards, pnlPlayerCard1, pnlPlayerCard2, pnlPlayerCard3, pnlPlayerCard4, pnlPlayerCard5);
+
+
+            Card.ShowPlayerHand(
+               player.Hand,
+               pnlPlayerCard1,
+               pnlPlayerCard2,
+               pnlPlayerCard3,
+               pnlPlayerCard4,
+               pnlPlayerCard5);
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
