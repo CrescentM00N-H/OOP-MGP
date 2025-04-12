@@ -136,6 +136,7 @@ namespace Euchre.Models
                 string key = $"{card.Rank},{card.Suit}";
 
                 //get the path from the dictionary in constants
+                Console.WriteLine(key);
                 string filePath = Constants.PixelThemePaths[key];
 
                 PictureBox pb = new PictureBox
